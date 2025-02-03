@@ -11,7 +11,6 @@ class User(db.Model):
     username = db.Column(db.String(120), unique=True, nullable=False)  # Added back the username
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(db.String(512), nullable=False)  # Store hashed password
-    full_name = db.Column(db.String(120))
     role = db.Column(db.String(50), default='user')  # Default to 'user'
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
     updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
