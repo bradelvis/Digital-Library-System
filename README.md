@@ -55,10 +55,6 @@ View Book Details
 
 As a user, I want to view the details of a specific book.
 
-Change Password
-
-As a user, I want to change my password for security.
-
 Models
 
 User Model
@@ -85,25 +81,19 @@ status: Indicates whether the book is available or borrowed.
 
  # Errors Encountered
 
-Adding to Reading List
+# Adding to Reading List
 
 Issue: Initially, implementing the reading list feature was difficult due to structuring relationships between users and books.
 
-Solution: Introduced a separate ReadingList model to track users and their selected books.
-
-Rating System
+# Rating System
 
 Issue: Storing ratings and linking them to users and books was challenging.
 
-Solution: Implemented a Ratings model where users can submit ratings, and books can have an average rating displayed.
-
-Logout Issue
+# Logout Issue
 
 Issue: Users remained logged in even after attempting to log out.
 
-Solution: Fixed session handling in Flask by ensuring that session data was properly cleared on logout.
-
-Technology Stack
+# Technology Stack
 
 Backend: Flask (Python)
 
@@ -112,34 +102,6 @@ Frontend: Vite (React)
 Database: SQLite / PostgreSQL
 
 tailwind: tailwind 
-
-Errors Encountered 
-
-Adding to Reading List
-
-Issue: Initially, implementing the reading list feature was difficult due to structuring relationships between users and books.
-
-Solution: Introduced a separate ReadingList model to track users and their selected books.
-
-Rating System
-
-Issue: Storing ratings and linking them to users and books was challenging.
-
-Logout Issue
-
-Issue: Users remained logged in even after attempting to log out.
-
-Search Books
-
-Issue: Implementing an efficient search functionality was challenging due to filtering and indexing issues.
-
-Technology Stack
-
-Backend: Flask (Python)
-
-Frontend: Vite (React)
-
-Database: SQLite / PostgreSQL
 
  # Installation & Setup
 
