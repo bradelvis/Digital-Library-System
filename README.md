@@ -3,11 +3,11 @@ Project Overview
 
 The Digital Library System is designed to provide a convenient way for users to access and manage digital books. The system allows users to borrow books, manage their reading lists, and track borrowed books efficiently.
 
-Problem Statement
+# Problem Statement
 
 Readers often face difficulty accessing books in a convenient way, and managing borrowed books can be a hassle.
 
-Solution
+# Solution
 
 A Digital Library System that allows users to:
 
@@ -83,19 +83,7 @@ description: Brief summary of the book.
 
 status: Indicates whether the book is available or borrowed.
 
-Loan Model
-
-loan_id: Unique identifier for each loan transaction.
-
-user: Foreign key linking to the User model.
-
-book: Foreign key linking to the Book model.
-
-loan_date: Date when the book was borrowed.
-
-return_date: Date when the book is returned.
-
-Errors Encountered & Solutions
+ # Errors Encountered
 
 Adding to Reading List
 
@@ -153,10 +141,7 @@ Frontend: Vite (React)
 
 Database: SQLite / PostgreSQL
 
-
-
-
-Installation & Setup
+ # Installation & Setup
 
 Clone the repository:
 
@@ -171,7 +156,7 @@ Run the Flask backend:
 
 flask run
 
-Set up the frontend:
+# Set up the frontend:
 
 cd frontend
 npm install
@@ -179,11 +164,11 @@ npm run dev
 
 Access the application at http://localhost:5173.
 
-Contribution
+# Contribution
 
 If you wish to contribute, please submit a pull request with detailed explanations of your changes.
 
-License
+# License
 
 This project is licensed under the MIT License.
 
