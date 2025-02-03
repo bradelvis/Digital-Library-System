@@ -7,6 +7,9 @@ The Digital Library System is designed to provide a convenient way for users to 
 
 Readers often face difficulty accessing books in a convenient way, and managing borrowed books can be a hassle.
 
+# video explanation link
+https://drive.google.com/file/d/1Jb-eD3_yz4l0uvHTsHUXyQHe82EPNzjk/view
+
 # Solution
 
 A Digital Library System that allows users to:
