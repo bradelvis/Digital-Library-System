@@ -28,7 +28,11 @@ function App() {
           <RouterComp />
         </RouterProvider>
       </div>
+        <UserProvider>
+        <BookProvider>
       <Toaster />
+          </BookProvider>
+      </UserProvider>
     </Provider>
   );
 }
