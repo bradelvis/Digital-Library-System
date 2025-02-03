@@ -13,7 +13,7 @@ import { Toaster } from "react-hot-toast";
 import SignUp from "./components/authComp/SignUp";
 import AddBooks from "./components/AdminComp/AddBooks";
 import AllBooks from "./components/AdminComp/AllBooks";
-import { UserProvider } from './context/UserContext';
+// import { UserProvider } from './context/UserContext';
 function App() {
   const store = configureStore({
     reducer: {
